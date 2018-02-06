@@ -5,6 +5,7 @@ body {
 
 div
 {
+  text-decoration: underline;
   color: #D178FD;
   text-align: center;
   font-family: cursive;
