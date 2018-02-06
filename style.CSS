@@ -1,5 +1,6 @@
 body {
-  background-color: #626B7C;
+  color: #626B7C;
+  align-items: center;
 }
 
 .text
@@ -7,6 +8,10 @@ body {
   color: #D178FD;
   text-align: center;
   font-family: cursive;
+}
+#more
+{
+color:#7A68CD
 }
 
 img
