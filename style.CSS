@@ -1,4 +1,5 @@
 <DOCTYPE stylesheet>
+<style>
 body {
   background-color: gray;
 }
@@ -18,3 +19,4 @@ img{
 ul.a {
   list-style-type:circle;
 }
+</style>
