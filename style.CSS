@@ -3,7 +3,7 @@ body {
   align-items: center;
 }
 
-.text
+div
 {
   color: #D178FD;
   text-align: center;
@@ -14,7 +14,7 @@ body {
 color:#7A68CD
 }
 
-img
+.img
 {
   display:block;
   margin-left:auto;
