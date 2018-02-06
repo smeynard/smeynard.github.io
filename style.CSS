@@ -1,28 +1,21 @@
 body {  color: #626B7C;
   align-items: center;}
-  
-div
-{
+
+div{
   text-decoration: underline;
   color: #D178FD;
   text-align: center;
   font-family: cursive;
-}
-#more
-{
-color:#7A68CD
-}
+  font-size: 14;}
 
-.img
-{
+#more{
+color:#7A68CD}
+
+.img{
   display:block;
   margin-left:auto;
-  margin-right:auto;
-}
+  margin-right:auto;}
 
-ul.a {
-  list-style-type:circle;
-}
-ul.b {
-  list-style-type: square;
-}
+ul.a {  list-style-type:circle;}
+
+ul.b {  list-style-type: square;}
