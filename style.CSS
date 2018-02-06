@@ -2,11 +2,19 @@
 body {
   background-color: gray;
 }
+
 div
 {
   text-color: SlateBlue;
   text-align: center;
 }
+
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
 ul.a {
   list-style-type:circle;
 }
