@@ -11,7 +11,8 @@ body {
   font-family: cursive;
 }
 
-img{
+.image
+{
   display:block;
   margin-left:auto;
   margin-right:auto;
