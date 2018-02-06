@@ -1,12 +1,12 @@
 <DOCTYPE stylesheet>
-<style>
+
 body {
   background-color: gray;
 }
 
 .text
 {
-  text-color: SlateBlue;
+  color: SlateBlue;
   text-align: center;
   font-family: cursive;
 }
@@ -21,4 +21,3 @@ body {
 ul.a {
   list-style-type:circle;
 }
-</style>
