@@ -7,3 +7,6 @@ div
   text-color: SlateBlue;
   text-align: center;
 }
+ul.a {
+  list-style-type:circle;
+}
