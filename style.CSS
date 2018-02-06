@@ -4,10 +4,11 @@ body {
   background-color: gray;
 }
 
-div
+.text
 {
   text-color: SlateBlue;
   text-align: center;
+  font-family: cursive;
 }
 
 img{
