@@ -1,24 +1,29 @@
-body
-  {color:#626B7C;
-  align-items:center;}
+  body {
+    color: #626B7C;
+    font-family: Helvetica, sans-serif;
+  }
 
-h1
-  {text-decoration:underline;
-  color:#D178FD;
-  text-align:center;
-  font-family:cursive;
-  font-size:14;}
+  h1
+    {text-decoration:underline;
+    color:#D178FD;
+    text-align:center;
+    font-family:cursive;
+    font-size:14;}
 
-#more
-  {color:#7A68CD}
+  #logo {
+    text-align: center;
+  }
+  #more
+    {color:#7A68CD}
 
-.img
-  {display:block;
-  margin-left:auto;
-  margin-right:auto;}
 
-ul.a
-  {list-style-type:circle;}
+  .thumbnail {
+    width: 150px;
+    height: 100px;
+  }
 
-ul.b
-  {list-style-type:square;}
+  ul.a
+    {list-style-type:circle;}
+
+  ul.b
+    {list-style-type:square;}
