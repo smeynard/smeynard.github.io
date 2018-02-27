@@ -40,10 +40,18 @@ article{
   justify-self: center;
 }
 
+<<<<<<< HEAD
 .img{
   width:200px;
   height:200px;
 }
+=======
+.img
+  {width:200px;
+  height:200px;
+  margin-left:auto;
+  margin-right:auto;}
+>>>>>>> 987d3bd85445be395b8bd5f2628f46485d0e3906
 
 
 ul.a{list-style-type:circle;}
