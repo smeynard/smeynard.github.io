@@ -16,42 +16,43 @@ h1{
   margin-right:auto;
   }
 
-article{
-  display: grid;
-  grid: "img meta" auto / 600px auto;
-  margin-bottom: 60px;
-}
-
-#link{
+.link{
   color:#D996F1;
   grid-area: meta;
   align-self: start;
 }
 
-#duedate{
+.duedate{
   color:#E8E6E6;
   grid-area: meta;
   align-self: start;
 }
 
-
-.element{
-  grid-area: img;
-  justify-self: center;
-}
-
-<<<<<<< HEAD
-.img{
-  width:200px;
-  height:200px;
-}
-=======
 .img
   {width:200px;
   height:200px;
   margin-left:auto;
   margin-right:auto;}
->>>>>>> 987d3bd85445be395b8bd5f2628f46485d0e3906
+
+
+  article {
+    display: grid;
+    grid: "img meta" auto / 200px auto;
+    margin-bottom: 20px;
+
+  }
+
+  /* Use this class on a div that contains the img element */
+  .article-img {
+    grid-area: img;
+    justify-self: center;
+  }
+
+  /* Use this class on a div that contains the description, link, etc. */
+  .article-meta {
+    grid-area: meta;
+    align-self:flex-end;
+  }
 
 
 ul.a{list-style-type:circle;}
