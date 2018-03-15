@@ -10,48 +10,52 @@ h1{
   font-size:14;
 }
 
-.mainimg{
+#mainimg{
   display:block;
   margin-left:auto;
   margin-right:auto;
   }
 
-article{
-  display: grid;
-  grid: "img meta" auto / 600px auto;
-  margin-bottom: 60px;
-}
-
-#link{
+.link{
   color:#D996F1;
   grid-area: meta;
   align-self: start;
 }
 
-#duedate{
+.duedate{
   color:#E8E6E6;
   grid-area: meta;
   align-self: start;
 }
 
-
-.element{
-  grid-area: img;
-  justify-self: center;
-}
-
-<<<<<<< HEAD
-.img{
-  width:200px;
-  height:200px;
-}
-=======
 .img
   {width:200px;
   height:200px;
   margin-left:auto;
   margin-right:auto;}
 
+<<<<<<< HEAD
+=======
+
+  article {
+    display: grid;
+    grid: "img meta" auto / 200px auto;
+    margin-bottom: 20px;
+
+  }
+
+  /* Use this class on a div that contains the img element */
+  .article-img {
+    grid-area: img;
+    justify-self: center;
+  }
+
+  /* Use this class on a div that contains the description, link, etc. */
+  .article-meta {
+    grid-area: meta;
+    align-self:flex-end;
+  }
+>>>>>>> 1ea5e578b026427e82ea5dd02229ef32d161b365
 
 
 ul.a{list-style-type:circle;}
