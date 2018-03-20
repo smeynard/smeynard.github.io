@@ -32,10 +32,9 @@ h1{
   {width:200px;
   height:200px;
   margin-left:auto;
-  margin-right:auto;}
+  margin-right:auto;
+}
 
-<<<<<<< HEAD
-=======
 
   article {
     display: grid;
@@ -55,9 +54,7 @@ h1{
     grid-area: meta;
     align-self:flex-end;
   }
->>>>>>> 1ea5e578b026427e82ea5dd02229ef32d161b365
 
-
-ul.a{list-style-type:circle;}
-
-ul.b{list-style-type:square;}
+ul.a{
+  list-style-type:disc;
+}
