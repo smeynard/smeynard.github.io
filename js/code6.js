@@ -6,7 +6,6 @@ projectObject[0] = {
   title: 'Points of Interest - Lafitte, LA',
   desc: 'Book Assignment 1',
   thumb: true,
-  keywords: ['Lafite','Story Map']
 }
 
 projectObject[1] = {
@@ -15,11 +14,17 @@ url: 'https://www.arcgis.com/apps/View/index.html?appid=b570f72dd7ed4d22af291d9d
 title: 'Layer Symbology and Popups',
 desc: 'Book Assignment 2',
 thumb: true,
-keywords:['recent earthquakes']
 }
 function createThumbAlt (project) {
-  let thumbAlt = 'Project ' + projectObject.id + '.PNG' + projectObject.title
+  let thumbAlt = 'Project ' + projectObject.id + 'Title:' + projectObject.title
   return thumbAlt
+}
+functions createThumbSrc (project) {
+  if (project.tumb === true) {
+    let thumbSrc = 'image/project' + project.id +'.PNG'
+    return thumbSrc
+  }
+  return 'images/none.PNG'
 }
 
 for(let i=0; i<projectObject.length; i++) {
