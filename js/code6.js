@@ -19,8 +19,8 @@ function createThumbAlt (project) {
   let thumbAlt = 'Project ' + projectObject.id + 'Title:' + projectObject.title
   return thumbAlt
 }
-functions createThumbSrc (project) {
-  if (project.tumb === true) {
+function createThumbSrc (project) {
+  if (projectObject.tumb === true) {
     let thumbSrc = 'image/project' + project.id +'.PNG'
     return thumbSrc
   }
