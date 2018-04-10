@@ -1,18 +1,18 @@
 let map = L.map('mapFive').setView([39,-98],4)
 
-let grayBasemapUrl = ''
-let grayBasemap = L.titleLayer(grayBasemapUrl)
-grayBasemap.addTo(map)
+let greenBasemapUrl = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+let greenBasemap = L.titleLayer(greenBasemapUrl)
+greenBasemap.addTo(map)
 
-let satelliteUrl=''
+let satelliteUrl='https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 let satelliteBasemap=L.titleLayer(satelliteUrl)
 
 let Basemaps= {
-  'Light basemap': grayBasemap,
+  'Light basemap': greenBasemap,
   'Satellite':satelliteBasemap
 }
-let myControlOptions={
+let ControlOptions={
   collapsed: false
 }
 let opLayers={}
-L.control.layer(myBasemaps, opLayers, myControllOptions).addTo(map)
+L.control.layer(Basemaps, opLayers, ControllOptions).addTo(map)
