@@ -5,12 +5,12 @@
 
   function style (feature) {
     let age = feature.properties.MED_AGE
-    let color = 'Violet'
+    let color = 'purple'
     if (age < 38) {
-      color = purple
+      color = 'blue'
     }
     let style = {
-      color: 'purple',
+      color: color,
       weight: 1,
       fillOpacity: 0.2
     }
@@ -26,5 +26,3 @@
     onEachFeature: popup
   }
   L.geoJSON(stateDemographics, options).addTo(map)
-}
-mapFour()
