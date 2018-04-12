@@ -6,9 +6,13 @@
   function style (feature) {
     let age = feature.properties.MED_AGE
     let color = 'purple'
-    if (age < 38) {
+    if (age < 37) {
       color = 'blue'
     }
+    if (age > 38) {
+      color = 'green'
+    }
+
     let style = {
       color: color,
       weight: 1,
