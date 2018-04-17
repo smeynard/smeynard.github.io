@@ -15,8 +15,9 @@
 
     let style = {
       color: color,
-      weight: 1,
-      fillOpacity: 0.2
+      weight: 4,
+      fillOpacity: 0.1
+      dashArray: 3
     }
     return style
   }

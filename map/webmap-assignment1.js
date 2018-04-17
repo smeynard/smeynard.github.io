@@ -1,15 +1,17 @@
-let map = L.map('mapOne').setView([51.505,	-0.09], 13)
+let map = L.map('mapOne').setView([35.357417, 138.722806], 13)
+
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}').addTo(map)
+
 let polygon = L.polygon([
-  [51.509, -0.08],
-  [51.503, -0.06],
-  [51.51, -0.047]
+  [35.518459, 138.964695],
+  [35.146176, 138.625796],
+  [35.413903, 138.163878]
 ]).addTo(map)
 
-let mypoint = L.marker([51.5, -0.09]).addTo(map)
+let mypoint = L.marker([35.357417, 138.722806]).addTo(map)
 
-polygon.bindPopup('St. Katharine\'s and Wapping')
-mypoint.bindPopup('London Bridge<br>Station')
+polygon.bindPopup('Japan City')
+mypoint.bindPopup('Mount Fuji')
 
 map.on('click', function (event) {
   console.log('You clicked the map at ' + event.latlng)
