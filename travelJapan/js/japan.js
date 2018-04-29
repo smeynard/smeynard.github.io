@@ -18,16 +18,32 @@ let optionalBasemaps= {
 }
 L.control.layers(optionalBasemaps).addTo(mapJapan)
 
-function style (feature) {
- let Description = feature.properties.cat
-  let color = 'maroon'
- //if Description = "City Activity" {color: 'pink'}
- //if Description = "Nature Activity" {color: 'olive'}
- //if Description = "Shopping" {color: 'blue'}
- //if Description = "Bars" {color: 'yellow'}
- //if Description = "Entertainment" {color: 'orange'}
- //if Description = "Lodging" {color: 'Black'}
+function createCustomIcon (feature, latlng) {
+  let sushi = L.icon({
+    iconUrl: 'images/foodIcon.PNG',
+    iconSize: [30, 40],
+  })
+  return L.marker(latlng, { icon: sushi })
 }
+//function popup (feature, layer) {
+//  let name = feature.properties.Place
+//  let URL = feature.properties.URL
+//  layer.bindPopup('Place:' + name +'<br> Description:' + cat +'<br> URL:' + URL)}
+
+let options = {
+  pointToLayer: createCustomIcon
+//  onEachFeature: popup
+  }
+
+//function style (feature) {
+  //let type = feature.properties
+  //let icon =
+ //if type = "City Activity" {color: 'pink'}
+ //if type = "Nature Activity" {color: 'olive'}
+ //if type = "Shopping" {color: 'blue'}
+ //if type = "Bars" {color: 'yellow'}
+ //if type = "Entertainment" {color: 'orange'}
+ //if type = "Lodging" {color: 'Black'}
 
 //let style = {
   //color: color,
@@ -36,11 +52,6 @@ function style (feature) {
 //}
 //return style
 
-function popup (feature) {
-let name = feature.properties.place
-  let URL = feature.properties.URL
-  layer.bindPopup('Place:' + name +'<br> Description:' + cat +'<br> URL:' + URL)}
 
-let options = {onEachFeature: popup}
 
 L.geoJSON(travelPoints, options).addTo(mapJapan)

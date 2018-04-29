@@ -4,8 +4,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tokyo Tower",
-        "cat": "City Activity",
+        "Place": "Tokyo Tower",
+        "Cat": "City Activity",
         "Address": "4-2-8 Shiba-koen, Minato, Tokyo 105-0011",
         "URL": "https://www.tokyotower.co.jp/"
       },
@@ -18,8 +18,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Mario Carts",
-        "cat": "City Activity",
+        "Place": "Mario Carts",
+        "Cat": "City Activity",
         "Address": "Japan, 〒101-0021 TokyoSotokanda Chiyoda-kuSotokanda, 4 Chome−12, 4-12-9-1",
         "URL": "https://maricar.com/en/akihabara.html"
       },
@@ -32,8 +32,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tsuta \"Ramen\"",
-        "cat": "food",
+        "Place": "Tsuta \"Ramen\"",
+        "Cat": "food",
         "Address": "1 Chome-14-1 Sugamo, Toshima-ku, Tōkyō-to 170-0002, Japan",
         "URL": "http://ameblo.jp/yuki-onishi/"
       },
@@ -46,8 +46,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Meiji Shrine",
-        "cat": "Nature Activity",
+        "Place": "Meiji Shrine",
+        "Cat": "Nature Activity",
         "Address": "1-1 Yoyogikamizonocho, Shibuya, Tokyo 151-8557, Japan",
         "URL": "http://www.meijijingu.or.jp/"
       },
@@ -62,8 +62,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tsukiji Fish Market \"Fish Acution\"",
-        "cat": "Shopping",
+        "Place": "Tsukiji Fish Market \"Fish Acution\"",
+        "Cat": "Shopping",
         "Address": "5 Chome-2-1 Tsukiji, Chūō, Tokyo 104-0045, Japan",
         "URL": "http://www.tsukiji-market.or.jp/"
       },
@@ -78,8 +78,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": " Shibuya Crossing ",
-        "cat": "City Activity",
+        "Place": " Shibuya Crossing ",
+        "Cat": "City Activity",
         "Address": "",
         "URL": "https://www.lonelyplanet.com/japan/tokyo/attractions/shibuya-crossing/a/poi-sig/396831/356817"
       },
@@ -94,8 +94,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "omoide yokocho \"Piss Alley\"",
-        "cat": "Bars",
+        "Place": "omoide yokocho \"Piss Alley\"",
+        "Cat": "Bars",
         "Address": "2 Nishishinjuku, Shinjuku, Tokyo 160-0023, Japan",
         "URL": "http://shinjuku-omoide.com/"
       },
@@ -110,8 +110,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Ichiran Shibuya \"Ramen\"",
-        "cat": "food",
+        "Place": "Ichiran Shibuya \"Ramen\"",
+        "Cat": "food",
         "Address": "1 Chome-22-7 Jinnan, Shibuya, Tokyo 150-0041, Japan",
         "URL": "http://ichiran.com/"
       },
@@ -126,8 +126,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Zauo Shinjuku \"Catch your own fish\"",
-        "cat": "food",
+        "Place": "Zauo Shinjuku \"Catch your own fish\"",
+        "Cat": "food",
         "Address": "3 Chome-2-9 Nishishinjuku, Shinjuku, Tokyo 160-0023, Japan",
         "URL": "http://www.zauo.com/"
       },
@@ -142,8 +142,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Genki Sushi \"Conveyer Belt Sushi\"",
-        "cat": "food",
+        "Place": "Genki Sushi \"Conveyer Belt Sushi\"",
+        "Cat": "food",
         "Address": "24-8 Udagawacho, Shibuya, Tokyo 150-0042, Japan",
         "URL": "http://www.genkisushi.co.jp/"
       },
@@ -158,8 +158,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Butagumi \"Tonkatsu\"",
-        "cat": "food",
+        "Place": "Butagumi \"Tonkatsu\"",
+        "Cat": "food",
         "Address": "2 Chome-24-9 Nishiazabu, Minato, Tokyo 106-0031, Japan",
         "URL": "http://www.butagumi.com/nishiazabu/"
       },
@@ -174,8 +174,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Gyoen \"Park and Garden\"",
-        "cat": "Nature Activity",
+        "Place": "Gyoen \"Park and Garden\"",
+        "Cat": "Nature Activity",
         "Address": "11 Naitomachi, Shinjuku, Tokyo 160-0014, Japan",
         "URL": "http://www.env.go.jp/garden/shinjukugyoen/index.html"
       },
@@ -190,8 +190,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Owl Cafe",
-        "cat": "entertainment",
+        "Place": "Owl Cafe",
+        "Cat": "entertainment",
         "Address": "4F HARAJUKU-ATM Building, 21-15, Jingumae 1 Chome, Shibuya-ku, Tokyo",
         "URL": "http://owlvillage.jp/harajuku/"
       },
@@ -206,8 +206,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Gram Cafe \"Pancakes\"",
-        "cat": "food",
+        "Place": "Gram Cafe \"Pancakes\"",
+        "Cat": "food",
         "Address": "Cafe & Pancake Gram, 1 Chome-9-30 Jingumae, Shibuya, Tokyo 150-0001, Japan",
         "URL": "https://www.cafe-gram.com/"
       },
@@ -222,8 +222,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tokyu Hands",
-        "cat": "Shopping",
+        "Place": "Tokyu Hands",
+        "Cat": "Shopping",
         "Address": "Japan, 〒151-8580 Tōkyō-to, Shibuya-ku, Sendagaya, 5 Chome−24, 渋谷区千駄ヶ谷5-24-2 タイムズスクエアビル2～8F",
         "URL": "http://shinjuku.tokyu-hands.co.jp/"
       },
@@ -238,8 +238,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Sensoji Temple",
-        "cat": "Nature Activity",
+        "Place": "Sensoji Temple",
+        "Cat": "Nature Activity",
         "Address": "2 Chome-3-1 Asakusa, Taitō, Tokyo 111-0032, Japan",
         "URL": "http://www.senso-ji.jp/"
       },
@@ -254,8 +254,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Shinjuku",
-        "cat": "lodging",
+        "Place": "Shinjuku",
+        "Cat": "lodging",
         "Address": "Shinjuku-ku, Tōkyō-to 160-0022 Japan",
         "URL": "https://www.airbnb.com/trips"
       },
@@ -270,8 +270,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Kyoto",
-        "cat": "lodging",
+        "Place": "Kyoto",
+        "Cat": "lodging",
         "Address": "〒605-0011 Kyōto-fu, Kyōto-shi, Higashiyama-ku, Shichikenchō (Sanjōdōri), 2",
         "URL": "https://www.airbnb.com/trips"
       },
@@ -286,8 +286,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Fushimi Inari Shrine",
-        "cat": "Nature Activity",
+        "Place": "Fushimi Inari Shrine",
+        "Cat": "Nature Activity",
         "Address": "68 Fukakusa Yabunouchicho, Fushimi-ku, Kyoto, Kyoto Prefecture 612-0882, Japan",
         "URL": "http://inari.jp/"
       },
@@ -302,8 +302,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Imperial Palace",
-        "cat": "Nature Activity",
+        "Place": "Imperial Palace",
+        "Cat": "Nature Activity",
         "Address": "1-1 Chiyoda, Tokyo 100-8111, Japan",
         "URL": "http://sankan.kunaicho.go.jp/"
       },
@@ -318,8 +318,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Golden Pavilion",
-        "cat": "Nature Activity",
+        "Place": "Golden Pavilion",
+        "Cat": "Nature Activity",
         "Address": "1 Kinkakujicho, Kita, Kyoto, Kyoto Prefecture 603-8361, Japan",
         "URL": "http://www.shokoku-ji.jp/k_access.html"
       },
@@ -334,8 +334,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Nishiki Fish Market \"Blossom Jelly\"",
-        "cat": "Shopping",
+        "Place": "Nishiki Fish Market \"Blossom Jelly\"",
+        "Cat": "Shopping",
         "Address": "Japan, 〒604-8054 Kyōto-fu, Kyōto-shi, Nakagyō-ku, Higashiuoyachō, 富小路通四条上る西大文字町609番地",
         "URL": "http://www.kyoto-nishiki.or.jp/"
       },
@@ -350,8 +350,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Issen-Yoshoku Okonomiyaki \"Pancakes\"",
-        "cat": "food",
+        "Place": "Issen-Yoshoku Okonomiyaki \"Pancakes\"",
+        "Cat": "food",
         "Address": "北側-238 祇園町 Higashiyama Ward, Kyoto Prefecture 605-0073, Japan",
         "URL": "http://www.issen-yosyoku.co.jp/"
       },
@@ -366,8 +366,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Nijo castle",
-        "cat": "Nature Activity",
+        "Place": "Nijo castle",
+        "Cat": "Nature Activity",
         "Address": "541 Nijojocho, Nakagyo Ward, Kyoto, Kyoto Prefecture 604-8301, Japan",
         "URL": "http://www.city.kyoto.jp/bunshi/nijojo/"
       },
@@ -382,8 +382,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "otagi Nenbutsu-Ji \"Laughing Buddah Statues\"",
-        "cat": "Nature Activity",
+        "Place": "otagi Nenbutsu-Ji \"Laughing Buddah Statues\"",
+        "Cat": "Nature Activity",
         "Address": "2-5 Sagatoriimoto Fukatanicho, Ukyō-ku, Kyoto, Kyoto Prefecture 616-8439, Japan",
         "URL": "http://www.otagiji.com/"
       },
@@ -398,8 +398,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Nakamura Tokichi \"Macha\"",
-        "cat": "Shopping",
+        "Place": "Nakamura Tokichi \"Macha\"",
+        "Cat": "Shopping",
         "Address": "Suvaco JR Kyoto Isetan",
         "URL": "http://www.tokichi.jp/english/"
       },
@@ -414,8 +414,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Gion District",
-        "cat": "City Activity",
+        "Place": "Gion District",
+        "Cat": "City Activity",
         "Address": "Japan, 〒605-0074 京都府京都市東山区Higashiyama-ku, Gionmachi Minamigawa, 祇園町南側 四条東山下ル 祇園町南側528-4",
         "URL": "https://www.japan-guide.com/e/e3902.html"
       },
@@ -430,8 +430,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Kurama Onsen",
-        "cat": "Spa",
+        "Place": "Kurama Onsen",
+        "Cat": "Spa",
         "Address": "520 Kuramahonmachi, Sakyo Ward, Kyoto, Kyoto Prefecture 601-1111, Japan",
         "URL": "http://www.kurama-onsen.co.jp/"
       },
@@ -446,8 +446,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Dōtonbori",
-        "cat": "Bars",
+        "Place": "Dōtonbori",
+        "Cat": "Bars",
         "Address": "Japan, 〒542-0071 Osaka Prefecture, 大阪市中央区道頓堀",
         "URL": "http://www.city.osaka.lg.jp/kensetsu/cmsfiles/contents/0000116/116189/012_doutomboritte.pdf"
       },
@@ -462,8 +462,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tempozan Ferris Wheel ",
-        "cat": "entertainment",
+        "Place": "Tempozan Ferris Wheel ",
+        "Cat": "entertainment",
         "Address": "1 Chome-1-10 Kaigandōri, Minato-ku, Ōsaka-shi, Ōsaka-fu 052-0022, Japan",
         "URL": "https://osaka-info.jp/en/page/tempozan-ferris-wheel"
       },
@@ -478,8 +478,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Nara Park \"Deer Park\"",
-        "cat": "Nature Activity",
+        "Place": "Nara Park \"Deer Park\"",
+        "Cat": "Nature Activity",
         "Address": "Nara, Nara Prefecture, Japan",
         "URL": "http://nara-park.com/"
       },
@@ -494,8 +494,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Nakatanidō \"Mochi\"",
-        "cat": "food",
+        "Place": "Nakatanidō \"Mochi\"",
+        "Cat": "food",
         "Address": "29, 橋本町 Nara, Nara Prefecture 630-8217, Japan",
         "URL": "http://www.nakatanidou.jp/"
       },
@@ -510,8 +510,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Kasuga-taisha shrine",
-        "cat": "Nature Activity",
+        "Place": "Kasuga-taisha shrine",
+        "Cat": "Nature Activity",
         "Address": "160 Kasuganocho, Nara, Nara Prefecture 630-8212, Japan",
         "URL": "http://www.kasugataisha.or.jp/"
       },
@@ -526,8 +526,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Bamboo Forest",
-        "cat": "Nature Activity",
+        "Place": "Bamboo Forest",
+        "Cat": "Nature Activity",
         "Address": "Saganonomiyacho, Ukyō-ku, Kyoto, Kyoto Prefecture 616-8394, Japan",
         "URL": "http://kanko.city.kyoto.lg.jp/detail.php?InforKindCode=4&ManageCode=6000002"
       },
@@ -542,8 +542,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Monkey Park",
-        "cat": "Nature Activity",
+        "Place": "Monkey Park",
+        "Cat": "Nature Activity",
         "Address": "Japan, 〒616-0004 Kyoto Prefecture, Kyoto, Nishikyo Ward, 中尾下町61",
         "URL": "http://monkeypark.jp/"
       },
@@ -558,8 +558,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Tenzan no yu",
-        "cat": "Spa",
+        "Place": "Tenzan no yu",
+        "Cat": "Spa",
         "Address": "55-4-7 Saganomiyanomotocho, Ukyō-ku, Kyoto, Kyoto Prefecture 616-8315, Japan",
         "URL": "http://www.ndg.jp/tenzan/en/"
       },
@@ -574,8 +574,8 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "place": "Kibune Zhuang \"Dining by River\"",
-        "cat": "food",
+        "Place": "Kibune Zhuang \"Dining by River\"",
+        "Cat": "food",
         "Address": "50 Kuramakibunecho, Sakyo Ward, Kyoto, Kyoto Prefecture 601-1112, Japan",
         "URL": "https://www.kibunesou.com/"
       },
