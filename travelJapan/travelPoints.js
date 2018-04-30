@@ -11,8 +11,10 @@ let travelPoints = {
       },
       "geometry": {
         "type": "Point",
-        "coordinates":
-        [35.658355,139.745828]
+        "coordinates":[
+          139.745828,
+          35.658355
+        ]
       }
     },
     {
@@ -25,8 +27,10 @@ let travelPoints = {
       },
       "geometry": {
         "type": "Point",
-        "coordinates":
-        [35.702473,139.77342]
+        "coordinates":[
+          139.77342,
+          35.702473
+        ]
       }
     },
     {
@@ -39,8 +43,10 @@ let travelPoints = {
       },
       "geometry": {
         "type": "Point",
-        "coordinates":
-        [35.732896,139.740644]
+        "coordinates":[
+          139.740644,
+          35.732896
+        ]
       }
     },
     {

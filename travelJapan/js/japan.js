@@ -25,33 +25,11 @@ function createCustomIcon (feature, latlng) {
   })
   return L.marker(latlng, { icon: sushi })
 }
-//function popup (feature, layer) {
-//  let name = feature.properties.Place
-//  let URL = feature.properties.URL
-//  layer.bindPopup('Place:' + name +'<br> Description:' + cat +'<br> URL:' + URL)}
 
 let options = {
   pointToLayer: createCustomIcon
-//  onEachFeature: popup
+
   }
-
-//function style (feature) {
-  //let type = feature.properties
-  //let icon =
- //if type = "City Activity" {color: 'pink'}
- //if type = "Nature Activity" {color: 'olive'}
- //if type = "Shopping" {color: 'blue'}
- //if type = "Bars" {color: 'yellow'}
- //if type = "Entertainment" {color: 'orange'}
- //if type = "Lodging" {color: 'Black'}
-
-//let style = {
-  //color: color,
-  //weight: 4,
-  //fillOpacity: 0.1
-//}
-//return style
-
 
 
 L.geoJSON(travelPoints, options).addTo(mapJapan)
