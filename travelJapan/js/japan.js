@@ -1,15 +1,15 @@
 
 let mapJapan = L.map('travelMap').setView([35.357417, 138.722806], 7)
 
+let greenBasemapUrl='https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
+let greenBasemap=L.tileLayer(greenBasemapUrl)
+greenBasemap.addTo(mapJapan)
+
 let lightBasemapUrl ='https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 let lightBasemap = L.tileLayer(lightBasemapUrl)
-lightBasemap.addTo(mapJapan)
 
 let grayBasemapUrl='http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png'
 let grayBasemap=L.tileLayer(grayBasemapUrl)
-
-let greenBasemapUrl='https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
-let greenBasemap=L.tileLayer(greenBasemapUrl)
 
 let optionalBasemaps= {
   'Light Basemap': lightBasemap,
@@ -31,29 +31,28 @@ function createCustomIcon (feature, latlng) {
 
     let customIcon = L.icon({
        iconUrl: url,
-       iconSize: [30, 40],
+       iconSize: [40, 50],
      })
      console.log(type)
      return L.marker(latlng, { icon: customIcon })
 }
 
-  function popup (feature, layer) {
+function popup (feature, layer) {
     let name = feature.properties.Place
     let url = feature.properties.URL
     let cat = feature.properties.Cat
-    layer.bindPopup('Description:' + cat +'<br> URL:' + '<a href="'+ url +'">'+name+'</a>')
-  }
+    let address = feature.properties.Address
+    layer.bindPopup('Address:'+ address + '<br> Description:' + cat + '<br> URL:' + '<a href="'+ url +'">'+name+'</a>')
+}
 
 let options = {
-    pointToLayer: createCustomIcon,
-    onEachFeature: popup
-    }
+  pointToLayer: createCustomIcon,
+  onEachFeature: popup
+}
 
 let locator = L.control.locate({
-        position: 'topright',
-        strings: {
-            title: "Where am I?"
-        }
-      }).addTo(mapJapan)
+  position: 'topright'
+}).addTo(mapJapan)
+
 
 L.geoJSON(travelPoints, options).addTo(mapJapan)
