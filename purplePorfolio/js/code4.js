@@ -1,5 +1,5 @@
 
-let projectArray = [
+let assignmentArray = [
   1,
   'http://arcg.is/2DsHgpx',
   'Points of Interest - Lafitte, LA',
@@ -7,7 +7,7 @@ let projectArray = [
   true,
   ['Lafite','Story Map']
 ]
-  let projectObject = {
+  let assignmentObject = {
     id: 1,
     url: 'http://arcg.is/2DsHgpx',
     title: 'Points of Interest - Lafitte, LA',
@@ -16,6 +16,6 @@ let projectArray = [
     keywords: ['Lafite','Story Map']
   }
 
-console.log(projectArray[0], projectObject.id, projectObject["id"])
-console.log(projectArray[1], projectObject.url, projectObject["url"])
-console.log(projectArray[2], projectObject.title, projectObject["title"])
+console.log(assignmentArray[0], assignmentObject.id, assignmentObject["id"])
+console.log(assignmentArray[1], assignmentObject.url, assignmentObject["url"])
+console.log(assignmentArray[2], assignmentObject.title, assignmentObject["title"])
