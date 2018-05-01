@@ -35,22 +35,6 @@ let options = {
 }
 ---------------------------------------------------------------------------
 
-function popup (feature, layer) {
-  let name = feature.properties.Place
-  let URL = feature.properties.URL
-  layer.bindPopup('Place:' + name +'<br> Description:' + cat +'<br> URL:' + URL)
-  onEachFeature: popup
-}
-
-function style (feature) {
-  let type = feature.properties.
-  let icon = icon
- if type = "City Activity" {iconURL: 'images/cityIcon.PNG'}
- if type = "Nature Activity" {iconURL: 'images/natureIcon.PNG'}
- if type = "Shopping" {iconURL: 'images/shoppingIcon.PNG'}
- if type = "Bars" {iconURL: 'images/barsIcon.PNG'}
- if type = "Entertainment" {iconURL: 'images/enterIcon.PNG'}
- if type = "Lodging" {iconURL: 'images/lodgingIcon.PNG'}
 
 
 let locator = L.control.locate({

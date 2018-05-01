@@ -19,17 +19,41 @@ let optionalBasemaps= {
 L.control.layers(optionalBasemaps).addTo(mapJapan)
 
 function createCustomIcon (feature, latlng) {
-  let sushi = L.icon({
-    iconUrl: 'images/foodIcon.PNG',
-    iconSize: [30, 40],
-  })
-  return L.marker(latlng, { icon: sushi })
+    let type = feature.properties.Cat
+    let url = 'images/foodIcon.PNG'
+    if (type == "City Activity") {url= 'images/cityIcon.PNG'}
+    if (type == "Nature Activity") {url= 'images/natureIcon.PNG'}
+    if (type == "Shopping") {url= 'images/shoppingIcon.PNG'}
+    if (type == "Bars") {url= 'images/barsIcon.PNG'}
+    if (type == "Entertainment") {url= 'images/enterIcon.PNG'}
+    if (type == "Lodging") {url= 'images/LodgingIcon.PNG'}
+    if (type == "Food") {url= 'images/foodIcon.PNG'}
+
+    let customIcon = L.icon({
+       iconUrl: url,
+       iconSize: [30, 40],
+     })
+     console.log(type)
+     return L.marker(latlng, { icon: customIcon })
 }
 
-let options = {
-  pointToLayer: createCustomIcon
-
+  function popup (feature, layer) {
+    let name = feature.properties.Place
+    let url = feature.properties.URL
+    let cat = feature.properties.Cat
+    layer.bindPopup('Description:' + cat +'<br> URL:' + '<a href="'+ url +'">'+name+'</a>')
   }
 
+let options = {
+    pointToLayer: createCustomIcon,
+    onEachFeature: popup
+    }
+
+let locator = L.control.locate({
+        position: 'topright',
+        strings: {
+            title: "Where am I?"
+        }
+      }).addTo(mapJapan)
 
 L.geoJSON(travelPoints, options).addTo(mapJapan)

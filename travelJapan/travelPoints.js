@@ -37,7 +37,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Tsuta \"Ramen\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "1 Chome-14-1 Sugamo, Toshima-ku, Tōkyō-to 170-0002, Japan",
         "URL": "http://ameblo.jp/yuki-onishi/"
       },
@@ -117,7 +117,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Ichiran Shibuya \"Ramen\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "1 Chome-22-7 Jinnan, Shibuya, Tokyo 150-0041, Japan",
         "URL": "http://ichiran.com/"
       },
@@ -133,7 +133,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Zauo Shinjuku \"Catch your own fish\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "3 Chome-2-9 Nishishinjuku, Shinjuku, Tokyo 160-0023, Japan",
         "URL": "http://www.zauo.com/"
       },
@@ -149,7 +149,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Genki Sushi \"Conveyer Belt Sushi\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "24-8 Udagawacho, Shibuya, Tokyo 150-0042, Japan",
         "URL": "http://www.genkisushi.co.jp/"
       },
@@ -165,7 +165,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Butagumi \"Tonkatsu\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "2 Chome-24-9 Nishiazabu, Minato, Tokyo 106-0031, Japan",
         "URL": "http://www.butagumi.com/nishiazabu/"
       },
@@ -197,7 +197,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Owl Cafe",
-        "Cat": "entertainment",
+        "Cat": "Entertainment",
         "Address": "4F HARAJUKU-ATM Building, 21-15, Jingumae 1 Chome, Shibuya-ku, Tokyo",
         "URL": "http://owlvillage.jp/harajuku/"
       },
@@ -213,7 +213,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Gram Cafe \"Pancakes\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "Cafe & Pancake Gram, 1 Chome-9-30 Jingumae, Shibuya, Tokyo 150-0001, Japan",
         "URL": "https://www.cafe-gram.com/"
       },
@@ -357,7 +357,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Issen-Yoshoku Okonomiyaki \"Pancakes\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "北側-238 祇園町 Higashiyama Ward, Kyoto Prefecture 605-0073, Japan",
         "URL": "http://www.issen-yosyoku.co.jp/"
       },
@@ -469,7 +469,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Tempozan Ferris Wheel ",
-        "Cat": "entertainment",
+        "Cat": "Entertainment",
         "Address": "1 Chome-1-10 Kaigandōri, Minato-ku, Ōsaka-shi, Ōsaka-fu 052-0022, Japan",
         "URL": "https://osaka-info.jp/en/page/tempozan-ferris-wheel"
       },
@@ -501,7 +501,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Nakatanidō \"Mochi\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "29, 橋本町 Nara, Nara Prefecture 630-8217, Japan",
         "URL": "http://www.nakatanidou.jp/"
       },
@@ -581,7 +581,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Kibune Zhuang \"Dining by River\"",
-        "Cat": "food",
+        "Cat": "Food",
         "Address": "50 Kuramakibunecho, Sakyo Ward, Kyoto, Kyoto Prefecture 601-1112, Japan",
         "URL": "https://www.kibunesou.com/"
       },
