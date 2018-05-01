@@ -261,7 +261,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Shinjuku",
-        "Cat": "lodging",
+        "Cat": "Lodging",
         "Address": "Shinjuku-ku, Tōkyō-to 160-0022 Japan",
         "URL": "https://www.airbnb.com/trips"
       },
@@ -277,7 +277,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Kyoto",
-        "Cat": "lodging",
+        "Cat": "Lodging",
         "Address": "〒605-0011 Kyōto-fu, Kyōto-shi, Higashiyama-ku, Shichikenchō (Sanjōdōri), 2",
         "URL": "https://www.airbnb.com/trips"
       },
