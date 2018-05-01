@@ -437,7 +437,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Kurama Onsen",
-        "Cat": "Spa",
+        "Cat": "Entertainment",
         "Address": "520 Kuramahonmachi, Sakyo Ward, Kyoto, Kyoto Prefecture 601-1111, Japan",
         "URL": "http://www.kurama-onsen.co.jp/"
       },
@@ -565,7 +565,7 @@ let travelPoints = {
       "type": "Feature",
       "properties": {
         "Place": "Tenzan no yu",
-        "Cat": "Spa",
+        "Cat": "Entertainment",
         "Address": "55-4-7 Saganomiyanomotocho, Ukyō-ku, Kyoto, Kyoto Prefecture 616-8315, Japan",
         "URL": "http://www.ndg.jp/tenzan/en/"
       },
