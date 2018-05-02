@@ -196,16 +196,16 @@ let travelPoints = {
     {
       "type": "Feature",
       "properties": {
-        "Place": "Owl Cafe",
+        "Place": "Akiba Fukurou \"Owl Cafe\"",
         "Cat": "Entertainment",
-        "Address": "4F HARAJUKU-ATM Building, 21-15, Jingumae 1 Chome, Shibuya-ku, Tokyo",
-        "URL": "http://owlvillage.jp/harajuku/"
+        "Address": "67 Kanda Neribeicho, Chiyoda, Tokyo 101-0022, Japan",
+        "URL": "http://www.akiba2960.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.7035,
-          35.672226
+          139.774829,
+          35.700787
         ]
       }
     },
