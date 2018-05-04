@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Japan Trip</title>
+    <title>
+      Japan Trip
+    </title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="locate.css" />
@@ -14,23 +16,26 @@
       <h1>
         Planning a Trip to Japan
       </h1>
-      <main>
     </div>
+
     <img id="bigpic" src="images/japan.PNG" alt="smeynard logo">
 
     <br>
     <hr>
     <br>
 
-    <div>
-      <h2>
-        Planning a vacation can be a lot of work. Finding different activities and restaurants might be as simple as putting a search to Google Maps but mapping out what to do and when to do it is a lot easier when you can see all your different desired destination spots at the same time.
+    <main>
+      <div>
+        <h2>
+          Planning a vacation can be   <div class="popup" onclick="sideNote()">a lot of work.
+            <span class="popuptext" id="randomPopup">Too much work!</span>
+            </div> Finding different activities and restaurants might be as simple as putting a search to Google Maps but mapping out what to do and when to do it is a lot easier when you can see all your different desired destination spots at the same time.
         <br>
         <br>
-        For this trip to Japan, I will be spending 1 week in Tokyo and 1 week in Kyoto, with day trips to Osaka, Nara and Arashiyama. To manage time the most efficient way possible I marked all the known spots to visit on a map and categorized them by the type of activiy they are.
+          For this trip to Japan, I will be spending 1 week in Tokyo and 1 week in Kyoto, with day trips to Osaka, Nara and Arashiyama. To manage time the most efficient way possible I marked all the known spots to visit on a map and categorized them by the type of activiy they are.
         <br>
         <br>
-        On the map below you'll see the following types of markers:
+          On the map below you'll see the following types of markers:
       </h2>
 
         <br>
@@ -38,35 +43,52 @@
         <h3>
           <img class="icon" src="images/lodgingIcon.PNG" alt="airbnb"> = Lodging
        </h3>
+
        <h3>
         <img class="icon" src="images/shoppingIcon.PNG" alt="shopping"> = Shopping
       </h3>
+
         <h3>
         <img class="icon" src="images/natureIcon.PNG" alt="nature"> = Nature related activities
       </h3>
+
         <h3>
         <img class="icon" src="images/cityIcon.PNG" alt="city"> = City related activities
       </h3>
+
         <h3>
         <img class="icon" src="images/enterIcon.PNG" alt="entertainment"> = Entertainment
       </h3>
+
         <h3>
         <img class="icon" src="images/foodIcon.PNG" alt="food"> = Restaurants
       </h3>
+
         <h3>
         <img class="icon" src="images/barsIcon.PNG" alt="bars"> = Bars
       </h3>
+
     </div>
 
 <br>
 <hr>
 <br>
     <div id="travelMap"> </div>
+    <h2>
+      To see other projects done in GEOG4046 checkout <a href="https://smeynard.github.io/purplePorfolio/"> my porfolio </a>
+    </h2>
+
+    <script>
+    function sideNote() {
+        let popup = document.getElementById("randomPopup");
+        popup.classList.toggle("show");
+    }
+    </script>
 
     <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
     <script src="js/locate.js" charset="utf-8"></script>
 
-</main>
+    </main>
 
     <footer>
       &copy; Shelbi's Final Project GEOG4046 Spring2018

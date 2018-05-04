@@ -1,11 +1,11 @@
 
 let mapJapan = L.map('travelMap').setView([35.357417, 138.722806], 7)
 
-let greenBasemapUrl='https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
+let greenBasemapUrl='https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
 let greenBasemap=L.tileLayer(greenBasemapUrl)
 greenBasemap.addTo(mapJapan)
 
-let lightBasemapUrl ='https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+let lightBasemapUrl ='https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
 let lightBasemap = L.tileLayer(lightBasemapUrl)
 
 let grayBasemapUrl='http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png'
